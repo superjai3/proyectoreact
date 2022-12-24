@@ -4,11 +4,13 @@
 //import reactLogo from "./assent/react.svg";
 
 import { ItemListContainer } from "./container/ItemListContainer/ItemListContainer";
+import NavBar from "./componets/NavBar/NavBar";
 import "./App.css";
 
 function App() {
   return (
     <>
+      <NavBar />
       <ItemListContainer saludo={"En Construcción..."} />
     </>
   );
